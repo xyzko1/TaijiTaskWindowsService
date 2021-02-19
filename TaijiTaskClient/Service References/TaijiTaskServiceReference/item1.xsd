@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/TaijiTaskWinService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TaijiTaskWinService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfTaskResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TaskResult" nillable="true" type="tns:TaskResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTaskResult" nillable="true" type="tns:ArrayOfTaskResult" />
+  <xs:complexType name="TaskResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="ser:guid" />
+      <xs:element minOccurs="0" name="interval" type="xs:int" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nextProcessTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="runOnStart" type="xs:boolean" />
+      <xs:element minOccurs="0" name="startTime" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="taskStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="timerType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TaskResult" nillable="true" type="tns:TaskResult" />
+</xs:schema>

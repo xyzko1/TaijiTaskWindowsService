@@ -1,0 +1,9 @@
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\bin\Debug\TaijiTaskClient.exe.config
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\bin\Debug\TaijiTaskClient.exe
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\bin\Debug\TaijiTaskClient.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\obj\Debug\TaijiTaskClient.csprojAssemblyReference.cache
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\obj\Debug\TaijiTaskClient.Form1.resources
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\obj\Debug\TaijiTaskClient.Properties.Resources.resources
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\obj\Debug\TaijiTaskClient.csproj.GenerateResource.cache
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\obj\Debug\TaijiTaskClient.exe
+D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskClient\obj\Debug\TaijiTaskClient.pdb

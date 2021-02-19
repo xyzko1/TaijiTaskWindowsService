@@ -1,0 +1,43 @@
+2020-01-08 14:27:02.9330 ERROR System.IO.FileNotFoundException: 未能找到文件“D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskWinService\bin\Debug\Tasks.txt”。
+文件名:“D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskWinService\bin\Debug\Tasks.txt”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding)
+   在 System.IO.File.ReadLines(String path)
+   在 TaijiTaskWinService.Program.Main(String[] args) 位置 D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskWinService\Program.cs:行号 24
+2020-01-08 14:34:36.5850 ERROR System.ServiceModel.AddressAccessDeniedException: HTTP 无法注册 URL http://+:8733/TaijiTaskWinService/TaskService/。进程不具有此命名空间的访问权限(有关详细信息，请参见 http://go.microsoft.com/fwlink/?LinkId=70353)。 ---> System.Net.HttpListenerException: 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   在 System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   在 System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   在 System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open()
+   在 TaijiTaskWinService.Program.Main(String[] args) 位置 D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskWinService\Program.cs:行号 46
+2020-01-08 14:34:47.9917 ERROR System.ServiceModel.AddressAccessDeniedException: HTTP 无法注册 URL http://+:8733/TaijiTaskWinService/TaskService/。进程不具有此命名空间的访问权限(有关详细信息，请参见 http://go.microsoft.com/fwlink/?LinkId=70353)。 ---> System.Net.HttpListenerException: 拒绝访问。
+   在 System.Net.HttpListener.AddAllPrefixes()
+   在 System.Net.HttpListener.Start()
+   在 System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   在 System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   在 System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   在 System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   在 System.ServiceModel.Channels.CommunicationObject.Open()
+   在 TaijiTaskWinService.Program.Main(String[] args) 位置 D:\TaiJiProj\TaijiTaskWindowsService\TaijiTaskWinService\Program.cs:行号 46

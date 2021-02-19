@@ -1,0 +1,17 @@
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\SendAppTask.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\SendAppTask.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\TaskInterface.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\NLog.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\TaskInterface.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\NLog.xml
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\obj\Debug\SendAppTask.csprojAssemblyReference.cache
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\obj\Debug\SendAppTask.csproj.CopyComplete
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\obj\Debug\SendAppTask.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\obj\Debug\SendAppTask.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\EntityFramework.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\PublishManager.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\WebCB.Factory.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\Newtonsoft.Json.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\EntityFramework.xml
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\TaiJiProj\TaijiTaskWindowsService\SendAppTask\obj\Debug\SendAppTask.csproj.CoreCompileInputs.cache

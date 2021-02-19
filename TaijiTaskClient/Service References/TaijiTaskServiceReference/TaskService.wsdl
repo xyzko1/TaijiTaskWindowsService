@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TaskService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TaijiTaskWinService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITaskService_GetTaskList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskList" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_GetTaskList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaskListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_StartAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartAll" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_StartAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_StopAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:StopAll" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_StopAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_Start_InputMessage">
+    <wsdl:part name="parameters" element="tns:Start" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_Start_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_Stop_InputMessage">
+    <wsdl:part name="parameters" element="tns:Stop" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_Stop_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_RunImmediately_InputMessage">
+    <wsdl:part name="parameters" element="tns:RunImmediately" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_RunImmediately_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RunImmediatelyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_Time_InputMessage">
+    <wsdl:part name="parameters" element="tns:Time" />
+  </wsdl:message>
+  <wsdl:message name="ITaskService_Time_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TimeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITaskService">
+    <wsdl:operation name="GetTaskList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/GetTaskList" message="tns:ITaskService_GetTaskList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/GetTaskListResponse" message="tns:ITaskService_GetTaskList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/StartAll" message="tns:ITaskService_StartAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/StartAllResponse" message="tns:ITaskService_StartAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StopAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/StopAll" message="tns:ITaskService_StopAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/StopAllResponse" message="tns:ITaskService_StopAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/Start" message="tns:ITaskService_Start_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/StartResponse" message="tns:ITaskService_Start_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/Stop" message="tns:ITaskService_Stop_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/StopResponse" message="tns:ITaskService_Stop_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RunImmediately">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/RunImmediately" message="tns:ITaskService_RunImmediately_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/RunImmediatelyResponse" message="tns:ITaskService_RunImmediately_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Time">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaskService/Time" message="tns:ITaskService_Time_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaskService/TimeResponse" message="tns:ITaskService_Time_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITaskService" type="tns:ITaskService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTaskList">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/GetTaskList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartAll">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/StartAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopAll">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/StopAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Start">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/Start" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/Stop" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunImmediately">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/RunImmediately" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Time">
+      <soap:operation soapAction="http://tempuri.org/ITaskService/Time" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TaskService">
+    <wsdl:port name="BasicHttpBinding_ITaskService" binding="tns:BasicHttpBinding_ITaskService">
+      <soap:address location="http://localhost:8733/TaijiTaskWinService/TaskService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

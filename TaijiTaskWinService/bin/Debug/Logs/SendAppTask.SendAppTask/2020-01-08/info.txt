@@ -1,0 +1,13 @@
+2020-01-08 14:32:27.5407 ERROR sasdasdasd
+2020-01-08 14:32:30.9994 INFO 任务【SendAppTask.SendAppTask】执行完毕，状态【等待运行】 下次执行时间：2020-01-08 12:03:00
+2020-01-08 14:32:34.8295 ERROR sasdasdasd
+2020-01-08 14:32:34.8385 INFO 任务【SendAppTask.SendAppTask】执行完毕，状态【等待运行】 下次执行时间：2020-01-08 12:03:00
+2020-01-08 14:36:22.0212 ERROR sasdasdasd
+2020-01-08 14:36:23.4214 INFO 任务【SendAppTask.SendAppTask】执行完毕，状态【等待运行】 下次执行时间：2020-01-08 12:03:00
+2020-01-08 14:36:49.3429 ERROR sasdasdasd
+2020-01-08 14:37:33.9512 INFO 任务【SendAppTask.SendAppTask】执行完毕，状态【等待运行】 下次执行时间：2020-01-08 12:03:00
+2020-01-08 14:37:37.0289 ERROR sasdasdasd
+2020-01-08 14:37:37.0379 INFO 任务【SendAppTask.SendAppTask】执行完毕，状态【等待运行】 下次执行时间：2020-01-08 12:03:00
+2020-01-08 14:37:39.6993 ERROR sasdasdasd
+2020-01-08 14:39:22.4293 ERROR sasdasdasd
+2020-01-08 14:39:22.4562 INFO 任务【SendAppTask.SendAppTask】执行完毕，状态【等待运行】 下次执行时间：2020-01-08 15:00:00

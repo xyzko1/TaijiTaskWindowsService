@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7c5b575f-4a13-4b29-86d9-def779a0c27f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/TaijiTaskWinService/TaskService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="4cfb8c58-9f31-448a-8adc-de8c68233384" SourceId="1" SourceUrl="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="2d084ef3-e198-4e6a-928c-1f7a78eb151d" SourceId="1" SourceUrl="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd2" />
+    <MetadataFile FileName="TaskService.wsdl" MetadataType="Wsdl" ID="18e5164e-410d-4cc6-a70e-595d64bd55d3" SourceId="1" SourceUrl="http://localhost:8733/TaijiTaskWinService/TaskService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="a8714bc9-7329-4a1b-b74e-5fc103d77cf4" SourceId="1" SourceUrl="http://localhost:8733/TaijiTaskWinService/TaskService/?disco" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="db5ebe46-26b8-414f-bc5f-8ae42968ae66" SourceId="1" SourceUrl="http://localhost:8733/TaijiTaskWinService/TaskService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

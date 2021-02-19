@@ -1,0 +1,9 @@
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\bin\Debug\TaskInterface.dll
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\bin\Debug\TaskInterface.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\bin\Debug\NLog.dll
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\bin\Debug\NLog.xml
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\obj\Debug\TaskInterface.csproj.CopyComplete
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\obj\Debug\TaskInterface.dll
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\obj\Debug\TaskInterface.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\obj\Debug\TaskInterface.csprojAssemblyReference.cache
+D:\TaiJiProj\TaijiTaskWindowsService\TaskInterface\obj\Debug\TaskInterface.csproj.CoreCompileInputs.cache

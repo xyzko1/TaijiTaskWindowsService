@@ -1,0 +1,14 @@
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\RemunerationTask.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\RemunerationTask.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\EntityFramework.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\NLog.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\Remuneration.Dal.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\TaskInterface.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\ViewModel.Remuneration.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\WebCB.Factory.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\TaskInterface.pdb
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\bin\Debug\NLog.xml
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\obj\Debug\RemunerationTask.csprojAssemblyReference.cache
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\obj\Debug\RemunerationTask.csproj.CopyComplete
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\obj\Debug\RemunerationTask.dll
+D:\TaiJiProj\TaijiTaskWindowsService\RemunerationTask\obj\Debug\RemunerationTask.pdb
